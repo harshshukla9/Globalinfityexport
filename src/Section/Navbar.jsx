@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
@@ -16,7 +17,7 @@ export const Navbar = () => {
   return (
     <nav className="bg-gray-900 text-white py-5 px-6 md:px-8 flex justify-between items-center shadow-md">
       <div className="font-bold text-2xl">
-        <a href="/" className="hover:text-gray-400 transition-colors duration-300">GlobalInfinity</a>
+        <a href="/" className="hover:text-gray-400 transition-colors duration-300">Global Infinity Export</a>
       </div>
 
       {/* Menu Toggle Button for Mobile */}

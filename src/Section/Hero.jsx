@@ -4,12 +4,21 @@ import { Button } from "@/components/ui/button";
 import towel1 from '../assets/towel1.jpg';
 import towel3 from '../assets/towel3.jpg';
 import towel4 from '../assets/towel4.jpg';
+import towel5 from '../assets/towel5.jpg';
+import towel6 from '../assets/towel6.jpg';
+import towel7 from '../assets/towel7.jpg';
+import towel8 from '../assets/towel8.jpg';
+import towel9 from '../assets/towel9.jpg';
+import towel10 from '../assets/towel10.jpg';
+import towel11 from '../assets/towel11.jpg';
+
+
 import image2 from '../assets/image2.jpg';
 
 const GlobalInfinityHero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [flip, setFlip] = useState(false);
-  const images = [towel1, towel3, towel4, image2];
+  const images = [towel4, towel5, towel6,towel7,towel8,towel9,towel10,towel11];
 
   useEffect(() => {
     const imageInterval = setInterval(() => {
@@ -37,7 +46,7 @@ const GlobalInfinityHero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="text-3xl md:text-3xl lg:text-3xl font-bold mb-6 leading-tight">
-              Welcome to Global Infinity
+              Welcome to Global Infinity Export
             </h1>
             <div className="mb-6">
               <div className="  perspective-[1000px]">
@@ -50,10 +59,10 @@ const GlobalInfinityHero = () => {
                   style={{ transformStyle: 'preserve-3d' }}
                 >
                   <motion.p
-                    className=" text-3xl md:text-4xl text-white opacity-20 font-extrabold  backface-hidden "
+                    className=" text-2xl md:text-4xl text-white opacity-20 font-extrabold  backface-hidden "
                     style={{ backfaceVisibility: 'hidden' }}
                   >
-                    Unleash your brand , with our towel !
+                    Unleash your brand , with our Terry Products !
                   </motion.p>
                   <motion.p
                     className="text-xl md:text-2xl text-blue-400 font-semibold absolute backface-hidden"

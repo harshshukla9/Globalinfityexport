@@ -28,10 +28,10 @@ const GlobalInfinityAbout = () => {
     <section id="about" className="bg-gray-100 py-16 px-4 md:px-8">
       <div className="text-center max-w-4xl mx-auto mb-12">
         <h1 className="text-4xl font-bold text-[#1a237e] mb-6">
-          Discover Our Wide Range of Towels
+          Discover Our Wide Range of Terry products
         </h1>
         <p className="text-gray-700 text-lg">
-          At Global Infinity, we are dedicated to offering a premium selection of towels designed to meet all your needs. From luxurious bath towels to durable, high-quality towels for various applications, we source only the finest materials to ensure superior softness, absorbency, and longevity.
+          At Global Infinity Export, we are dedicated to offering a premium selection of towels designed to meet all your needs. From luxurious bath towels to durable, high-quality towels for various applications, we source only the finest materials to ensure superior softness, absorbency, and longevity.
         </p>
       </div>
 
@@ -46,9 +46,9 @@ const GlobalInfinityAbout = () => {
                 <img
                   src={image}
                   alt={`Towel ${index + 1}`}
-                  width={1200}
+                  width={600}
                   height={600}
-                  className="w-full h-[500px] md:h-[600px] object-fit"
+                  className="w-dvw h-dvh"
                 />
               </div>
             ))}
