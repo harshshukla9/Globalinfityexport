@@ -95,19 +95,19 @@ export default function TowelShowcase() {
                 <CardHeader>
                   <div className="flex items-center justify-between">
                     <CardTitle className="text-2xl font-bold">{towel.title}</CardTitle>
-                    <span className="text-4xl" role="img" aria-label={towel.title}>
+                    {/* <span className="text-4xl" role="img" aria-label={towel.title}>
                       {towel.icon}
-                    </span>
+                    </span> */}
                   </div>
                   <CardDescription className="text-blue-600 font-medium">{towel.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">{towel.details}</p>
-                  <div className="mt-4 flex flex-wrap gap-2">
+                  {/* <div className="mt-4 flex flex-wrap gap-2">
                     <Badge variant="secondary">Soft</Badge>
                     <Badge variant="secondary">Absorbent</Badge>
                     <Badge variant="secondary">Durable</Badge>
-                  </div>
+                  </div> */}
                 </CardContent>
               </Card>
             </motion.div>

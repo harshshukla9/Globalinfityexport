@@ -1,6 +1,6 @@
 import { Facebook, Heart, Instagram, Linkedin, Youtube ,X ,Twitter } from "lucide-react";
 import { cn } from "@/lib/utils"; // Assuming your `cn` utility is set up here
-import logo from "../assets/logo.webp"
+import logo from "../assets/logo.jpg"
 
 import { px } from "framer-motion";
 import { Video } from 'lucide-react';
@@ -55,7 +55,7 @@ export default function Component() {
           <div className="space-y-4">
             <h3 className="text-xl font-semibold">Services</h3>
             <ul className="space-y-2">
-              {["Services", "Products", "Careers"].map((item) => (
+              {[ "Products"].map((item) => (
                 <li key={item}>
                   <a href={`/${item.toLowerCase()}`} className="text-blue-400 hover:text-blue-300">
                     {item}

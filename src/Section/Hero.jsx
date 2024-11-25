@@ -11,6 +11,8 @@ import towel8 from '../assets/towel8.jpg';
 import towel9 from '../assets/towel9.jpg';
 import towel10 from '../assets/towel10.jpg';
 import towel11 from '../assets/towel11.jpg';
+import logo from '../assets/logo.jpg';
+
 
 
 import image2 from '../assets/image2.jpg';
@@ -18,7 +20,7 @@ import image2 from '../assets/image2.jpg';
 const GlobalInfinityHero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [flip, setFlip] = useState(false);
-  const images = [towel4, towel5, towel6,towel7,towel8,towel9,towel10,towel11];
+  const images = [logo];
 
   useEffect(() => {
     const imageInterval = setInterval(() => {

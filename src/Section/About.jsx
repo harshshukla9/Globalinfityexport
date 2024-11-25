@@ -2,13 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-import towel1 from '../assets/towel1.jpg';
-import towel2 from '../assets/image2.jpg';
-import towel3 from '../assets/towel3.jpg';
-import towel4 from '../assets/towel4.jpg';
+
+import towel5 from '../assets/towel5.jpg';
+import towel6 from '../assets/towel6.jpg';
+import towel7 from '../assets/towel7.jpg';
+import towel8 from '../assets/towel8.jpg';
+import towel9 from '../assets/towel9.jpg';
+import towel10 from '../assets/towel10.jpg';
+import towel11 from '../assets/towel11.jpg';
+
 
 const GlobalInfinityAbout = () => {
-  const images = [towel1, towel2, towel3, towel4];
+  const images = [ towel5, towel6,towel7,towel8,towel9,towel10,towel11];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Autoplay effect
@@ -34,7 +39,6 @@ const GlobalInfinityAbout = () => {
           At Global Infinity Export, we are dedicated to offering a premium selection of towels designed to meet all your needs. From luxurious bath towels to durable, high-quality towels for various applications, we source only the finest materials to ensure superior softness, absorbency, and longevity.
         </p>
       </div>
-
       <div className="relative">
         <div className="overflow-hidden rounded-2xl shadow-lg">
           <div
